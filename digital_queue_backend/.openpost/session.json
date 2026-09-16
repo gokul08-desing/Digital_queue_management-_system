@@ -1,0 +1,113 @@
+{
+  "tabs": [
+    {
+      "id": "17895020077498yl4",
+      "tabKind": "request",
+      "name": "New Request",
+      "method": "GET",
+      "url": "http://localhost:5000/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc4OTUyNzEyNiwianRpIjoiZWU3YWVhMTctYTc4MS00ODgyLWE5MDUtNWE0YTE3MGJhNDViIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6InVzZXJfMDAxIiwibmJmIjoxNzg5NTI3MTI2LCJjc3JmIjoiOTU2YzcxMGMtODgxYi00ZGI0LThiNzMtOTY0MzgyOGRkYjZlIiwiZXhwIjoxNzg5NTI4MDI2fQ.Y68aWc4if1X-CoOu3mVUXOVPg4NH1xOWr7Tmy6MbmPc",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  \"phone\": \"9876543210\",\n  \"password\": \"Demo@123\"\n}\n"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true,
+      "inheritScripts": false,
+      "preRequestScript": "",
+      "testScript": "",
+      "testRules": [],
+      "setVariables": [],
+      "activeTab": "body",
+      "sourceRequestId": null,
+      "sourceCollectionId": null,
+      "sourceFolderPath": null,
+      "sourceScope": "local",
+      "proxyId": null,
+      "certificateConfig": null,
+      "inheritCertificate": false,
+      "response": {
+        "status": 0,
+        "statusText": "Error",
+        "headers": {},
+        "body": "Request failed: Request with GET/HEAD method cannot have body.",
+        "time": 12,
+        "size": 0,
+        "actualRequest": {
+          "method": "GET",
+          "url": "http://localhost:5000/login",
+          "headers": {
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc4OTUyNzEyNiwianRpIjoiZWU3YWVhMTctYTc4MS00ODgyLWE5MDUtNWE0YTE3MGJhNDViIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6InVzZXJfMDAxIiwibmJmIjoxNzg5NTI3MTI2LCJjc3JmIjoiOTU2YzcxMGMtODgxYi00ZGI0LThiNzMtOTY0MzgyOGRkYjZlIiwiZXhwIjoxNzg5NTI4MDI2fQ.Y68aWc4if1X-CoOu3mVUXOVPg4NH1xOWr7Tmy6MbmPc"
+          },
+          "body": "{\n  \"phone\": \"9876543210\",\n  \"password\": \"Demo@123\"\n}\n",
+          "certificateNames": "System Trust Store"
+        },
+        "cookies": [],
+        "timingPhases": [
+          {
+            "name": "Environment",
+            "duration": 4
+          },
+          {
+            "name": "Auth",
+            "duration": 0
+          },
+          {
+            "name": "HTTP Request",
+            "duration": 12
+          },
+          {
+            "name": "Post-processing",
+            "duration": 0
+          }
+        ]
+      },
+      "error": null,
+      "loading": false,
+      "wsConnected": false,
+      "wsUrl": null,
+      "wsMessages": [],
+      "groupId": null,
+      "mcpDescription": "",
+      "mcpInputSchema": "",
+      "collectionId": null,
+      "folderId": null,
+      "folderPath": null,
+      "editorScope": "local",
+      "grpcConnected": false,
+      "grpcStreaming": false,
+      "responseTab": "body"
+    }
+  ],
+  "groups": [],
+  "activeTabId": "17895020077498yl4",
+  "currentView": "requests",
+  "sidebarTab": "collections",
+  "sidebarCollapsed": true,
+  "responseTab": "body",
+  "layoutMode": "horizontal",
+  "splitRatio": 0.5,
+  "horizontalSplitRatio": 0.5,
+  "selectedMockServerId": null
+}
